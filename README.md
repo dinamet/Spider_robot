@@ -14,3 +14,16 @@ Preparation for assembly
 Spider body assembly
 
 ![image spider 3](https://github.com/user-attachments/assets/68f7bd75-05b1-4985-bfe0-e210ffdd56aa)
+
+
+We have some problems with power supply 
+
+
+
+
+We connect servo motor to Arduino and power supply using some convenient components 
+
+
+
+
+Gathering 
