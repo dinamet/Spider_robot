@@ -1,8 +1,6 @@
-# Spider_robot
-
 # Spider Robot – Arduino Robotics Project
 
-# Overview
+# Overview:
 
 This project is a 4-legged spider robot built using Arduino Uno and the PCA9685 16-channel servo driver.
 The robot demonstrates leg movement control, servo coordination, and basic walking algorithms.
