@@ -58,18 +58,23 @@ Spider body assembly
 
 We have some problems with power supply 
 
-![IMG_20251202_155059](https://github.com/user-attachments/assets/f185637b-6049-4a92-a511-a116cc113dd3)
+![image spider 4](https://github.com/user-attachments/assets/f6a51cbd-bc95-486f-a553-ca844b44c01b)
 
 
 We connect servo motor to Arduino and power supply using some convenient components 
 
-![IMG_20251204_182219](https://github.com/user-attachments/assets/ca707031-293c-406e-90a4-56783f100af1)
+![image spider 5](https://github.com/user-attachments/assets/5278d28c-e0d4-4e6a-9c5b-8eacfc5c88d5)
 
 
-![IMG_20251205_225942_703](https://github.com/user-attachments/assets/31103a47-d6eb-4ad2-a34d-fd2c2398e827)
+![image spider 6](https://github.com/user-attachments/assets/057a007b-f384-4a11-be63-738ac073bc4a)
 
 
 Loading code of callibration to Arduino Uno and legs of spider takes initial position 
 
 https://github.com/user-attachments/assets/a95fe72d-f8f6-45bc-99b3-0bcea506866f
+
+
+Adding Bluetooth module to our project
+
+![image spider 7](https://github.com/user-attachments/assets/44a5bf36-5af1-4507-985a-c6796e394008)
 
