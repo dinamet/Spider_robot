@@ -1,41 +1,130 @@
-# Spider Robot – Arduino Robotics Project
+# Spider Robot - Arduino Robotics Project
 
-# Overview:
+## Project Description:
 
-This project is a 4-legged spider robot built using Arduino Uno and the PCA9685 16-channel servo driver.
-The robot demonstrates leg movement control, servo coordination, and basic walking algorithms.
+This project is a four-legged Spider Robot, each leg equipped with three SG90 servo motors (12 in total).
+The robot’s body is custom-designed and 3D-printed, and movement is controlled through Bluetooth using the HC-05 module.
+By sending commands from a smartphone or computer, the robot can walk, move its legs, and perform basic motion sequences.
 
-The goal of the project was to build and program a functional robotics prototype and document the entire process.
+This project demonstrates skills in robotics, servo control, embedded programming, wireless communication, and mechanical design.
 
-# Features:
+## Project Purpose and Outcomes:
 
-- 4-leg robot with 12 servo motors
+The main goal of this project was to design and build a fully functional walking robot using Arduino.
+Key outcomes:
 
-- PCA9685 servo controller
+- Successful control of 12 servos via PCA9685
 
-- Arduino-based control
+- Stable 3D-printed mechanical frame
 
-- Modular movement functions (stand, move forward, leg test)
+- Wireless Bluetooth control using HC-05
 
-- Upgraded wiring for stable power delivery
+- Ability to walk forward, backward, and perform basic movements
 
-# Components Used:
+- Understanding of servo kinematics and robot balance
 
-- Arduino Uno
+- Clean modular Arduino code used in real hardware
 
-- 8.4V external power supply (2 batteries)
+## Components Used:
 
-- XL4015 DC-DC adjustable voltage stepper with digital display
+- Arduino Uno + USB cable
+  
+- 7.4V external power supply (2 batteries in series)
 
-- PCA9685 16-channel driver
+- XL4015 DC-DC adjustable voltage step-down module with digital display
 
-- SG90 servos (12 pieces)
+- PCA9685 – 16-channel servo driver
 
-- Custom robot frame (3D printed)
+- SG90 servo motors – 12 pcs
 
-- Bluetooth module HC - 05
+- HC-05 Bluetooth module
+
+- 3D-printed custom frame
 
 - Jumper wires
+
+# Project Setup
+
+## 1. Wiring
+
+- Connect all 12 SG90 servos to the PCA9685 driver
+
+- Power servos with the 7.4V battery → XL4015 → PCA9685 V+
+
+- Arduino powers the logic side of PCA9685 (VCC + GND)
+
+HC-05:
+
+TX → Arduino RX
+
+RX → Arduino TX
+
+VCC → 5V
+
+GND → GND
+
+Make sure all grounds (Arduino, PCA9685, power module) are connected together.
+
+# Instructions for Running the Project
+## 2. Software Setup
+
+1) Install the required libraries:
+
+- Adafruit_PWMServoDriver
+
+- Servo (if used)
+
+2) Upload the Arduino code from this repository
+
+3) Turn on the external power supply
+
+4) Connect to HC-05 using a Bluetooth terminal app (Android/Windows)
+
+- Default password: 1234
+
+5) Send movement commands (examples):
+
+- "F" – walk forward
+
+- "B" – walk backward
+
+- "L" – rotate left
+
+- "R" – rotate right
+
+# How to Replicate This Project
+
+To fully recreate this robot:
+
+1) Print the frame using the included STL files
+
+2) Assemble 12 SG90 servos into the legs and body
+
+3) Wire everything using the wiring diagram
+
+4) Flash the Arduino code
+
+5) Install the Bluetooth control app
+
+6) Power the robot using two 3.7V Li-ion batteries (7.4V total)
+
+7) Adjust voltage on the XL4015 to power the servos safely (typically 5–6V)
+
+# Project Outcome Summary
+
+The Spider Robot successfully demonstrates:
+
+- Full servo control using PCA9685
+
+- Stable walking motion
+
+- Bluetooth-based remote control
+
+- A complete robotics workflow: design → print → wire → program → test
+
+- Understanding of basic quadruped locomotion
+
+- This project can be expanded with gait algorithms, sensors, or autonomous movement in the future.
 
 
 
