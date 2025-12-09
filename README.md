@@ -11,7 +11,7 @@ This project demonstrates skills in robotics, servo control, embedded programmin
 ## Project Purpose and Outcomes:
 
 The main goal of this project was to design and build a fully functional walking robot using Arduino.
-Key outcomes:
+### Key outcomes:
 
 - Successful control of 12 servos via PCA9685
 
@@ -53,36 +53,36 @@ Key outcomes:
 
 - Arduino powers the logic side of PCA9685 (VCC + GND)
 
-HC-05:
+### HC-05:
 
-TX → Arduino RX
+- TX → Arduino RX
 
-RX → Arduino TX
+- RX → Arduino TX
 
-VCC → 5V
+- VCC → 5V
 
-GND → GND
+- GND → GND
 
 Make sure all grounds (Arduino, PCA9685, power module) are connected together.
 
 # Instructions for Running the Project
 ## 2. Software Setup
 
-1) Install the required libraries:
+### 1) Install the required libraries:
 
 - Adafruit_PWMServoDriver
 
 - Servo (if used)
 
-2) Upload the Arduino code from this repository
+### 2) Upload the Arduino code from this repository
 
-3) Turn on the external power supply
+### 3) Turn on the external power supply
 
-4) Connect to HC-05 using a Bluetooth terminal app (Android/Windows)
+### 4) Connect to HC-05 using a Bluetooth terminal app (Android/Windows)
 
 - Default password: 1234
 
-5) Send movement commands (examples):
+### 5) Send movement commands (examples):
 
 - "F" – walk forward
 
@@ -94,7 +94,7 @@ Make sure all grounds (Arduino, PCA9685, power module) are connected together.
 
 # How to Replicate This Project
 
-To fully recreate this robot:
+### To fully recreate this robot:
 
 1) Print the frame using the included STL files
 
@@ -112,7 +112,7 @@ To fully recreate this robot:
 
 # Project Outcome Summary
 
-The Spider Robot successfully demonstrates:
+### The Spider Robot successfully demonstrates:
 
 - Full servo control using PCA9685
 
@@ -167,3 +167,11 @@ Adding Bluetooth module to our project
 
 ![image spider 7](https://github.com/user-attachments/assets/44a5bf36-5af1-4507-985a-c6796e394008)
 
+
+Images of Spider Robot with hardware 
+
+![image spider 8](https://github.com/user-attachments/assets/4c45dca8-5c05-433a-bf70-eb7ad7fad1fc)
+
+![image spider 9](https://github.com/user-attachments/assets/35262a11-71b8-4890-ac92-55cb0555bb76)
+
+![image spider 10](https://github.com/user-attachments/assets/d71c31c2-0f4e-4d10-9fc4-73f1746318eb)
