@@ -32,7 +32,7 @@ void setup() {
   pwm.setPWMFreq(50);
   delay(10);
 
-  // Все в 90°
+  // All serso motors on 90°
   for (int i = 0; i < 12; i++) {
     pwm.setPWM(servoChan[i], 0, angleToPulse(90));
     delay(50);
@@ -40,7 +40,6 @@ void setup() {
 }
 
 void loop() {}
-
 
 
 
