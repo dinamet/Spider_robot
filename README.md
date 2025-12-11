@@ -127,6 +127,119 @@ Make sure all grounds (Arduino, PCA9685, power module) are connected together.
 - This project can be expanded with gait algorithms, sensors, or autonomous movement in the future.
 
 
+# Original Proposal with Analysis
+
+## Project Goals (Original Proposal)
+
+The initial goal of this project was to design, build, and program a fully functional walking Spider Robot using Arduino.
+
+Key objectives included:
+
+- Designing and 3D-printing a complete robot frame
+
+- Assembling the hardware, including 12 servo motors, PCA9685 driver, power module, and Bluetooth control
+
+- Developing Arduino code for leg movement and coordinated walking
+
+- Implementing Bluetooth control through a mobile application
+
+- Testing and refining the robot’s walking mechanics
+
+## Analysis of Outcomes
+
+### 1. Goals Achieved
+
+Several important goals were successfully accomplished:
+
+$ Fully assembled the spider robot
+
+- We designed, printed, and assembled the entire robot frame using 3D-printed components.
+
+- All hardware components (Arduino Uno, PCA9685, SG90 servos, XL4015, HC-05 module, power supply) were installed and wired correctly.
+
+
+$ Hardware functionality
+
+- All 12 servo motors worked and responded to PCA9685 signals.
+
+- Bluetooth module successfully paired with a smartphone or PC.
+
+- The robot could perform basic movements, lift legs, and test individual servos.
+
+
+These achievements demonstrate strong hardware integration and mechanical design execution.
+
+## 2. Goals Not Achieved
+
+Some planned goals were not fully achieved:
+
+### Smooth and reliable walking via Bluetooth app
+
+We were not able to implement high-quality walking control through the mobile application.
+
+### Reason:
+
+The main difficulty was the complexity of writing stable walking code for a 4-legged robot with 12 servos.
+
+Key challenges included:
+
+- Coordinating 3 servos per leg in correct sequence
+
+- Balancing the robot during movement
+
+- Creating natural, realistic gait patterns
+
+- Synchronizing servo timing with Bluetooth commands
+
+- Debugging servo offsets and initial angles
+
+
+Even after a long period of testing and adjusting the code, smooth walking was not achieved.
+
+
+## 3. Improvements With More Time/Resources
+
+If we had additional time or better resources, we would improve the project in the following ways:
+
+### Improve walking algorithms
+
+- Implement a proper gait cycle (tripod gait or wave gait)
+
+- Use inverse kinematics instead of manual angle tuning
+
+- Add calibration for servo zero positions
+
+
+### Better Bluetooth Control
+
+- Develop a custom Android app with preset movement commands
+
+- Add smoother communication (e.g., using timers instead of delays in Arduino code)
+
+
+### Power and stability improvements
+
+- Use stronger servos or metal gear servos
+
+- Improve battery capacity to reduce voltage drops under load
+
+- Add rubber feet or padding for better grip
+
+
+### More testing time
+
+- Test each leg’s movement individually
+
+- Incrementally build walking patterns
+
+- Fine-tune servo angles for consistent motion
+
+
+## Summary
+
+This project successfully delivered a fully assembled and functional hardware platform for a Spider Robot.
+While stable walking and app-based control were not achieved, the project demonstrates strong progress in robotics engineering, servo control, and Bluetooth communication. With more time and improved algorithms, the robot could achieve full walking capabilities.
+
 
 # Our progress
 
